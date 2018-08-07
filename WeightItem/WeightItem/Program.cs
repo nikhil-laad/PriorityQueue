@@ -16,7 +16,7 @@ namespace WeightItem
 
             //dmeo code here
 
-            Console.WriteLine("End priority queue demo");
+            Console.WriteLine("End priority queue demo"); 
             Console.ReadLine();
 
         }
