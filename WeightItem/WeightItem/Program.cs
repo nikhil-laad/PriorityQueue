@@ -66,11 +66,10 @@ namespace WeightItem
                 if (data[ci].CompareTo(data[pi]) >= 0)
                     break;
                 T tmp = data[ci];
-                data[ci] 
-                
-
+                data[ci] = data[pi];
+                data[pi] = tmp;
+                ci = pi;
             }
         }
     }
-    
 }
